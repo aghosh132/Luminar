@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luminar Technolab</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/6f7dc7d59c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./index.css">
+  <style>
+    body {
+      height: 1500px;
+    
+    }
+
+    #ho {
+      color: black;
+    }
+
+    #ho:hover {
+      color: #5e068a;
+
+    }
+    #box{
+      transition: .5s;
+    }
+    #box:hover{
+      box-shadow: 0 0px 20px rgba(108, 107, 107, 0.458);
+      transform: scale(1.005);
+    }
+    .card{
+      transition: .5s;
+    }
+    .card:hover{
+      box-shadow: 0 0px 20px rgba(89, 89, 89, 0.458);
+      transform: scale(1.005);
+    }
+    button1{
+      background-color: #f5f5f5;
+      color: #5e068a;
+    }
+    #button1:hover{
+      background-color: #5e068a;
+      color: white;
+    }
+
+    /* span{
+                padding-left: 655px;
+            } */
+    textarea {
+      resize: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="height: 40px; background-color: #5e068a;" class="w-100">
+    <div class="container pt-2 w-100">
+      <div class="row">
+        <div class="col-6">
+          <a style="text-decoration: none; color: white;" href="">Have any question? +91 8086 651 651</a>
+        </div>
+        <div class="col-6 " style="text-align: right;">
+          <a  style="text-decoration: none; color: white;" href=""><i
+            class="fa-sharp fa-solid fa-phone"></i>+91 8086 651 651 <i class="fa-solid fa-envelope"></i>
+          contact@luminartechnolab.com</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <div class="container w-100">
+      <a class="navbar-brand text-white" href="#"><img src="./Images/logo.png" alt=""></a>
+      <!-- icon tag color white -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb- mb-lg-0">
+          <!-- <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Examples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Icons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Themes</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-white">Blog</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-auto mb- mb-lg-0"> -->
+          <li class="nav-item">
+            <a class="nav-link active" id="ho" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="ho" href="#">ABOUT</i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="ho" href="#">COURSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="ho" href="#">OUR PLACEMENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="ho" href="#">GALLERY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="ho" href="#">CONTACT</a>
+          </li>
+
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="corousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Images/luminar1.jpg"  class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block"
+          style="text-align:left; padding-left: 200px; padding-bottom: 150px;">
+          <h1 style="font-size: 50px;">Kerala's No.1 IT Finishing School <br>100% Placement Assistance</h1>
+          <p>We at LUMINAR TECHNOLAB offers best software training and placement in <br> emerging technologies like BIG
+            DATA, Data Science, Machine Learning, PYTHON, <br> Software Testing.</p>
+          <button type="button" style="background-color: #5e068a; color: white; border-radius: 50px;"
+            class="btn mt-1 btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            View Courses
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./Images/luminar2.jfif" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block"
+          style="text-align:left; padding-left: 200px; padding-bottom: 150px;">
+          <h1 style="font-size: 50px;">Data Science, ML & AI <br> Big Data - Hadoop & Spark <br> Python Data Science</h1>
+          <p>We LUMINAR TECHNOLAB offers best software training and placements in <br> emerging technologies like Big
+            Data,
+            Hadoop, Spark, Data Science, Machine <br> Learning, Deep Learning and AI.</p>
+          <button type="button" style="background-color: #5e068a; color: white; border-radius: 50px;"
+            class="btn mt-1 btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            View Courses
+          </button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Button trigger modal -->
+  <div class="container">
+    <button type="button" style="background-color: #5e068a; color: white; border-radius: 50px" class="btn mt-1 btn-lg"
+      data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Click Here
+    </button>
+  </div>
+
+  <!-- Modal -->
+
+  <div class="modal fade w-100" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="container p-5 modal-content">
+        <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div>
+          <!-- <div class="modal-header"> -->
+          <div>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Get Training Quote for free</h1>
+            <input class="mt-3" type="text" placeholder="Name" style="border: none;">
+            <hr class="mt-2">
+            <input class="mt-2" type="text" placeholder="Email" style="border: none;">
+            <hr class="mt-2">
+            <input class="mt-2" type="text" placeholder="Phone number" style="border: none;">
+            <hr class="mt-2">
+            <select class="w-100 mt-2" name="" id="" style="border: none;">
+              <option value="">Select Course interested in</option>
+            </select>
+            <hr class="mt-2">
+            <input class="mt-2" type="text" placeholder="City" style="border: none;">
+            <hr class="mt-2">
+            <textarea style="border: none;" name="" id="" cols="40" rows="2"></textarea>
+            <hr class="mt-2">
+          </div>
+
+        </div>
+        <button type="button" style="background-color: #5e068a; color: white; border-radius: 0%;"
+          class="btn w-25">Submit</button>
+        <!-- <div class="modal-body">
+          ...
+        </div> -->
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="container w-100">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="mt-5">
+          <h3 style="color: #5e068a;">Luminar Technolab Pvt Ltd</h3>
+          <p style="color: #9e6ab9;">CIN: U80220KL2021PTC071578</p>
+          <p style="line-height: 28px; max-width: 550px;">
+            Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing advanced
+            level
+            software training to Students and by helping them to get placed in IT companies. We are a team of IT
+            professionals
+            who have experience in IT sector for more than 15 plus years. Our fresher’s career foster programs are Big
+            Data
+            Training, Data Science Training, Data Analytics Training, Python Training, Software Testing Training &
+            Selenium
+            Training in Cochin, Kerala are designed in such a way to match with the current industry requirements. Our
+            Vision
+            is to provide 100% placements to students those who enroll with us for our specialized courses.
+          </p>
+          <button type="button" style="background-color: #5e068a; color: white; border-radius: 50px"
+            class="btn mt-3 btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            LEARN MORE
+          </button>
+        </div>
+
+      </div>
+      <div class="col-lg-5">
+
+        <img class="w-100" src="./Images/thumpsup.jpg" alt="">
+
+      </div>
+    </div>
+  </div>
+  <div style="padding-top:100px; background-color: #f5f5f5; padding-bottom: 50px;">
+    <div class="text-center">
+      <h3 style="color: #5e068a;">OUR <span style="color: #9e6ab9;">COURSES</span></h3>
+    </div>
+    <div id="box" class="container" style="margin-top: 30px;">
+      <div class="row">
+        <div class="col-lg-6 p-0" style="background-color: rgb(255, 255, 255);">
+          <img class="w-100" src="./Images/data-science-1588143159.jpg" alt="">
+        </div>
+        <div class="col-lg-6 pt-5 ps-5 pe-5" style="background-color: rgb(255, 255, 255); padding-bottom: 30px;">
+          <h4 style="color: #5e068a;">DATA SCIENCE - ML - AI - BIG DATA WITH CLOUD & TABLEAU</h4>
+          <p>Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine Learning,
+            Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.</p>
+            <p>📅 <strong>Next Batch : Jan 03rd 2022 (09:30 am - 11:30 am)</strong></p>
+            <p>⏰ <strong>Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day</strong></p>
+            <p>🧑‍🏫 <strong>Course Fees: <a style="color: #5e068a;" href="">VIEW MORE</a></strong></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<div style="background-color: #f5f5f5; width: 100%; height: 750px;">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card" style="width: 100%; border-radius: 0px; border: none; height: 500px;">
+            <img style="border-radius: 0px;" src="./Images/python-1588143191.jpg" class="card-img-top" alt="...">
+            <div class="card-body pe-5">
+              <a style="text-decoration: none; color: #5e068a;" href=""><h5 class="card-title">Python Django - Angular- Full Stack Web Development Expert</h5></a>
+              <p class="card-text">Core Python, Basics of Programming, Unix Commands, Advanced Python, Django Framework, REST API, Git, Angul...</p>
+              <a href="#" class="btn" style="background-color: #5e068a; border-radius: 0px; color: white;">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card" style="width: 100%; border-radius: 0px; border: none; height: 500px;">
+            <img style="border-radius: 0px;" src="./Images/st-1588580359.jpg" class="card-img-top" alt="...">
+            <div class="card-body pe-5">
+              <a style="text-decoration: none; color: #5e068a;" href=""><h5 class="card-title">Software Testing Specialist</h5></a>
+              <p class="card-text">Manual Testing, Java foundations, Mobile Testing, Selenium IDE, Selenium Web driver, Selenium Advanced Web...</p>
+              <a href="#" class="btn" style="background-color: #5e068a; border-radius: 0px; color: white;">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card" style="width: 100%; border-radius: 0px; border: none; height: 500px;">
+            <img style="border-radius: 0px;" src="./Images/ms-1623825586.jpg" class="card-img-top" alt="...">
+            <div class="card-body pe-5">
+              <a style="text-decoration: none; color: #5e068a;" href=""><h5 class="card-title">MEARN Stack Web Development Expert - Angular & React</h5></a>
+              <p class="card-text">HTML, CSS, Javascript, Bootstrap, Git, Typescript, MongoDB, MySQL, Express.JS, Angular, React.js and Node....</p>
+              <a href="#" class="btn" style="background-color: #5e068a; border-radius: 0px; color: white;">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+</body>
+
+</html>
